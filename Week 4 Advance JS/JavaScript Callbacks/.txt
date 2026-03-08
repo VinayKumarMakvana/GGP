@@ -1,0 +1,26 @@
+Uses of Callbacks in JavaScript =>
+    1. Handling Asynchronous Operations
+        Callbacks are widely used in
+            API requests (fetching data)
+            Reading files (Node.js file system)
+            Event listeners (clicks, keyboard inputs)
+            Database queries (retrieving data)
+
+
+
+
+JavaScript Promise
+    JavaScript Promises make handling asynchronous operations like API calls, file loading, or time delays easier. Think of a Promise as a placeholder for a value that will be available in the future. It can be in one of three states
+
+        Pending: The task is in the initial state.
+        Fulfilled: The task was completed successfully, and the result is available.
+        Rejected: The task failed, and an error is provided.
+
+Async and Await in JavaScript
+    Async/Await in JavaScript allows you to write asynchronous code in a clean, synchronous-like manner, making it easier to read, understand, and maintain while working with promises.
+
+        async functions always return a Promise.
+        await pauses execution until the Promise is resolved or rejected.
+        Improves readability compared to .then() and .catch() chaining.
+        Makes error handling simpler using try...catch.
+        Ideal for managing complex asynchronous flows in a structured way.

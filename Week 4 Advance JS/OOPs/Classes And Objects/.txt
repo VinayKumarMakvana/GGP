@@ -1,0 +1,68 @@
+In JavaScript, classes and objects are basic concepts of Object Oriented Programming (OOPs) that are used to represent real-world concepts and entities.
+
+A class is a template to create objects having similar properties and behavior, or in other words, we can say that a class is a blueprint for objects.
+An object is an instance of a class. For example, the animal type Dog is a class, while a particular dog named Tommy is an object of the Dog class.
+
+JavaScript Classes =>
+    A class in JavaScript is a blueprint used to create objects that share similar properties and methods. It’s a cleaner, more structured way to implement object-oriented programming compared to the older prototype-based approach.
+
+Constructor Method =>
+    The constructor is a special method inside a JavaScript class that executes automatically when a new object is created using the new keyword. It is primarily used to initialize the object's initial state.
+
+    Assigns and initializes instance properties using this.
+    Runs automatically once during object creation.
+    Creating a JavaScript Class: A JavaScript class is created using the class keyword to define a blueprint for objects.
+
+Class Getters and Setters =>
+    We can use getter and setter methods to get the value of an object and set the value of an object. We can use the get keyword for the getter method and the set keyword for the setter methods
+
+
+
+Object =>
+
+    An object in JavaScript is an instance of a class that represents a real-world entity. It holds its own data and can access the methods defined within its class.
+
+    Each object contains unique values for its instance properties.
+    Multiple objects can be created from the same class blueprint.
+
+To Access Object Properties:
+    1. Using dot Notation: 
+
+    Used to access an object’s property directly by writing the object name followed by a dot and the property name.
+
+    Syntax: object_name.key_1
+
+    2. Using bracket Notation: 
+
+    Used to access an object’s property by passing the property name as a string inside square brackets.
+
+    Syntax: object_name["key_1"]
+
+
+Encapsulation in JavaScript =>
+
+    comments
+    Encapsulation is a fundamental concept in object-oriented programming that refers to the practice of hiding the internal details of an object and exposing only the necessary information to the outside world.
+
+    Encapsulation can be achieved using two techniques:
+
+    Using Closures
+    In JavaScript, closures are functions that have access to variables in their outer lexical environment, even after the outer function has returned. Private variables and methods can be created using closures.
+
+
+Polymorphism in JavaScript =>
+
+    comments
+    Polymorphism is one of the 4 pillars of object-oriented programming languages where poly means many and morphism means transforming one form into another. Polymorphism means the same function with different signatures is called many times. It allows methods to do different things based on the object it is acting upon.
+
+    In JavaScript, polymorphism works in two primary ways:
+
+    Method Overriding: A child class overrides a method of its parent class.
+    Method Overloading (simulated): A function behaves differently based on the number or type of its arguments.
+
+
+avaScript offers call(), apply(), and bind() to control the value of this inside functions. These methods are useful for managing function context, especially in object-oriented scenarios.
+
+call(), apply(), and bind() change the this context of a function.
+Commonly used when sharing functions between objects.
+Polyfill provide modern features in older environments by recreating missing functionality.
