@@ -1,0 +1,15 @@
+Uses of JSX
+
+1. Embedding Expressions
+
+    JSX allows you to embed JavaScript expressions directly within the HTML-like syntax. You can use curly braces {} to insert JavaScript expressions.
+
+2. Using Attributes in JSX
+    In JSX, attributes are specified similarly to HTML, but with some differences. Since JavaScript is used alongside JSX, certain attribute names are written in camelCase instead of the lowercase syntax used in HTML.
+
+3. Passing Children in JSX
+    In JSX, components or elements can accept children just like HTML elements. Children are nested elements or content that are passed into a component. This allows for flexible and reusable components.
+
+4. JSX Represents Objects
+    JSX is not directly rendered as HTML by React; instead, it gets compiled into JavaScript objects representing virtual DOM elements. These objects are later used by React to efficiently update the real DOM
+    
