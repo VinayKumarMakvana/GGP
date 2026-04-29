@@ -1,0 +1,52 @@
+To get started with Context API,
+
+
+1. Create a Context.
+
+import { createContext } from 'react';
+
+export const AppContext = createContext(“”);
+
+
+
+
+
+
+2. Create a Provider for the Context.
+
+import { useState, React } from "react";
+import { AppContext } from "./AppContext";
+import AppComponent from "./AppComponent";
+function App() {
+  const [text, setText] = useState("");
+  return (
+    <div>
+      <AppContext.Provider value={{ text, setText }}>
+        <AppComponent />
+      </AppContext.Provider>
+    </div>
+  );
+}
+export default App;
+
+
+
+
+
+
+3. Using Context in React Component.
+
+import { useContext } from 'react';
+import { AppContext } from './AppContext';
+function AppComponent() {
+  const { text, setText } = useContext(AppContext);
+  return (
+    <div>
+      <h1>{text}</h1>
+      <button onClick={() => setText('Geeks for Geeks')}>
+        Click me
+      </button>
+    </div>
+  );
+}
+export default AppComponent;

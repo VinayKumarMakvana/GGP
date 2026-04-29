@@ -1,0 +1,26 @@
+When building React applications, managing and sharing data between components can become tricky as your app grows. Two common solutions are Context API and Redux. Both help in handling state across your application, but they work in different ways.
+
+Context API is built into React and is best for simpler apps or cases where you just need to pass data deeply without prop drilling.
+Redux is a standalone state management library that provides a structured way to manage complex state changes, especially in large-scale applications.
+context_api
+Components of Redux
+There are three main components of Redux; Store, Actions, and Reducers.
+
+Store - Store is a Javascript object that holds the state of the application.
+Actions - Actions are the events defining the changes to the state and sending data to the Redux store.
+Reducers - Reducers are pure functions that take a state and actions input and return a state as an output.
+Features of Redux
+Single Source of Truth - The global state of the application is stored in a single store in an object tree. This feature makes debugging easier and helps persist the application’s state in development.
+State is read-only - State can only be changed by emitting an action which is a plain Javascript object describing what happened. This centralized change chain keeps the race condition problem out of sight.
+Changes are made with pure functions - To specify how the state tree is transformed by actions, you write pure reducers which are just pure functions that take the previous state and action and return a new state.
+
+
+
+Context API
+The React Context API allows a React app to effectively produce global variables that can be passed around. It is a state management solution provided by React. Using it we can create what is known as a context and the context provides values like states and functions. It can be consumed by a group of components that are wrapped around the context.
+
+Components of Context API
+There are two main components of React Context; Provider and Consumer.
+
+Provider - Providers are used to define and keep track of specific pieces of state. This component is responsible for providing the data that is shared across the components.
+Consumer - Consumers are responsible for modifying the state provided by the provider.
