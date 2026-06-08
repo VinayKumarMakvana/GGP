@@ -1,0 +1,20 @@
+How to use TypeScript with React?
+    Using TypeScript with React improves code quality by adding static typing, which helps catch errors early and provides better tooling support. It enhances maintainability, scalability, and developer productivity in React applications.
+
+Steps To Setup Project Environment
+    Step 1: Create a React app
+        npm create vite@latest project_name
+
+    Step 2: Install TypeScript
+        npm install --save typescript
+    
+    Step 3: Install React types definition
+        npm install @types/react @types/react-dom
+
+    Step 4: Install React dependencies
+        npm install
+
+    Step 5: Create files and Write code
+
+    Step 6: Run Project
+        npm run

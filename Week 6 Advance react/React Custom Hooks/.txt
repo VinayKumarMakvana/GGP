@@ -1,0 +1,21 @@
+A custom hook is a JavaScript function that starts with use and internally calls other hooks like useState, useEffect, or useContext. It allows developers to extract reusable logic, keeping components clean and modular.
+
+
+
+How To Create a Custom Hook in React?
+    In web application development, developers often need to reuse logic multiple times, which can become difficult to manage manually. So, the custom hook can be used to solve the problem of reusing complex stateful logic across multiple components.
+
+What are Custom Hooks?
+    Custom Hooks are special functions that we create in our application to extract certain functionalities and increase reusability. These hooks are just regular JavaScript functions that begin with the prefix "use".
+
+        Custom Hooks provide code reusability features.
+        It is easier to debug and modify the logic.
+        Unlike traditional functions, custom hooks can maintain state using React’s built-in hooks.
+
+How to Create a Custom Hook in React?
+    Creating a custom hook in React is fairly straightforward. Let’s break it down with an example.
+
+    Steps to Create a Custom Hook
+        Use React's Built-in Hooks: Inside your custom hook, you can use any of React’s built-in hooks (useState, useEffect, etc.).
+        Return a Value: Return values from your custom hook, typically the state or functions that you want to share.
+        Start with 'use': Name your custom hook starting with use, for example, useFetchData, useLocalStorage, etc.

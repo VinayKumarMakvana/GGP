@@ -1,0 +1,17 @@
+New Project with Vite
+
+npm create vite@latest my-react-app 
+cd my-react-app
+
+
+React Components
+
+    User Action triggers an event (click, input, etc.).
+    setState / useState updates the component’s state.
+    React Component uses props, state, JSX, and event handlers to define UI logic.
+    State Update changes dynamic data inside the component.
+    Re-render is triggered for the affected component.
+    Updated UI is generated as a new Virtual DOM.
+    Diffing compares the new Virtual DOM with the previous one.
+    Real DOM updates only the changed parts for better performance.
+

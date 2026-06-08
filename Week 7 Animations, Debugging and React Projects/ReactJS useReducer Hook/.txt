@@ -1,0 +1,9 @@
+ReactJS useReducer Hook
+    The useReducer hook is an alternative to the useState hook that is preferred when you have complex state logic. It is useful when the state transitions depend on previous state values or when you need to handle actions that can update the state differently.
+
+    Syntax:
+        const [state, dispatch] = useReducer(reducer, initialState);
+
+
+ReactJS Component Composition
+    In React, it becomes difficult to manage the complex UI components and maintain the code. With the help of Component Compositions, we can solve this problem by combining the components into a single component.

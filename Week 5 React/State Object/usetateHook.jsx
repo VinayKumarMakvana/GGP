@@ -1,0 +1,18 @@
+// 1. Counter using useState
+import { useState } from 'react';
+export default function Counter() {
+    const [count, setCount] = useState(0);
+
+    function handleClick() {
+        setCount(count + 1);
+    }
+    return (
+        <button onClick={handleClick}>
+            Click {count} me
+        </button>
+    );
+}
+
+
+// 2. Managing Form Input State
+
