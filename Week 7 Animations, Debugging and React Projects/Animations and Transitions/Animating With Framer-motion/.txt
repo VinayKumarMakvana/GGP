@@ -1,0 +1,5 @@
+Framer Motion is a modern animation library for React that allows developers to create smooth, natural, and production-ready animations with minimal code. It provides an easy-to-use API, physics-based transitions, and powerful features like gesture support, layout animations, and exit animations, making it the go-to choice for animating React applications.
+
+
+command :- 
+            npm install framer-motion

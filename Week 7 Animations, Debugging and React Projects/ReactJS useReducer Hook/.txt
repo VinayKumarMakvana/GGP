@@ -7,3 +7,7 @@ ReactJS useReducer Hook
 
 ReactJS Component Composition
     In React, it becomes difficult to manage the complex UI components and maintain the code. With the help of Component Compositions, we can solve this problem by combining the components into a single component.
+
+
+ReactJS PropTypes
+    PropTypes in ReactJS validate the types of props passed from parent to child components, helping catch errors early, improve debugging, and ensure consistent data handling.
